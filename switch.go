@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func tipo(i interface{}) string {
+func tipo(i interface{}) string { // retorna o tipo passado
 	switch i.(type) {
 	case int:
 		return "inteiro"
